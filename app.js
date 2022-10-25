@@ -197,8 +197,9 @@ console.log(i + 1);
  * "Frontend Simplified" */  
 
 let str = "Frontend Simplified"
-for (let i = 1; i <= console.log(str.length); ++i) {
-console.log(i)
+for (let i = 0; i < str.length; ++i) {
+console.log(str[i])
+
 }
 
 
