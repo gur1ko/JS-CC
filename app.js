@@ -212,19 +212,95 @@ console.log(str[i])
 
 
 //Function definition
-function welcomePersonToFES(firstName, lastName) {
+/* function welcomePersonToFES(firstName, lastName) {
 console.log(`Welcome to Frontend Simplified, ${firstName} ${lastName}`) 
 }
 // Call the Function
 welcomePersonToFES('Gurami', 'kiknadze') ;
+welcomePersonToFES('Gur1ko', 'Gur1co') ; */
+//
+/* function fn() {
+    return 5
+    console.log('my function')
+}
+
+fn() */
+
+/* function sumOfTwoNumbers(num1, num2) {
+    return num1 + num2
+}
+
+console.log(sumOfTwoNumbers(10, 20)); */ //a - argument when you call the function, 
+// p - when you define the function
 
 
 
+///////EXERCISE 3//////
+
+/** Create a function that converts Celsius to Farenheit 
+ * 
+ * F = C * 1.8 + 32
+ * 
+ * 
+*/
+/// my answer
+
+/* function celsusToFarenheit(num) {
+    return num * 1.8 + 32
+}
+console.log(celsusToFarenheit(21))
+ */
 
 
+/// correct answer
 
 
+/* function celsiusToFarenheit(celsius) {
+    let farenheit = celsius * 1.8 + 32
+    return farenheit
+}
 
+console.log(celsiusToFarenheit(0))
+
+ */
+
+
+// I PREFER MINE, CAUSE ITS SIMPLER
+
+
+// we can also use const
+
+
+/* const celsiusToFarenheit = (celsius) => {
+    return celsius * 1.8 + 32
+}
+
+console.log(celsiusToFarenheit(0)) */
+
+
+///////////ARRAYS//////////
+///////////////////////////
+
+
+/* let arr = [20, 30, 40, 50, 100,'', 100] 
+
+//First element of array
+console.log(arr[0])
+
+
+// Last element of array
+console.log(arr[arr.length - 1])
+
+// add element onto end of array
+arr.push(200)
+
+arr.filter(() => {})
+
+console.log(arr)
+ */
+
+
+// stopped at 1:40:04
 
 
 
