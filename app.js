@@ -196,16 +196,27 @@ console.log(i + 1);
  * Print out every character from the string:
  * "Frontend Simplified" */  
 
-let str = "Frontend Simplified"
+/* const str = "Frontend Simplified"
 for (let i = 0; i < str.length; ++i) {
 console.log(str[i])
 
 }
 
+ */
+
+
+///////////FUNCTIONS/////////
 
 
 
 
+
+//Function definition
+function welcomePersonToFES(firstName, lastName) {
+console.log(`Welcome to Frontend Simplified, ${firstName} ${lastName}`) 
+}
+// Call the Function
+welcomePersonToFES('Gurami', 'kiknadze') ;
 
 
 
