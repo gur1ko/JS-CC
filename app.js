@@ -281,26 +281,28 @@ console.log(celsiusToFarenheit(0)) */
 ///////////ARRAYS//////////
 ///////////////////////////
 
+let arr = [20, 30, 40, 50, 100]
 
-/* let arr = [20, 30, 40, 50, 100,'', 100] 
+// First element of array
 
-//First element of array
-console.log(arr[0])
+/* console.log(arr[0])
 
 
-// Last element of array
+// last element of array
 console.log(arr[arr.length - 1])
 
-// add element onto end of array
-arr.push(200)
+//add elements to end of array
 
-arr.filter(() => {})
+arr.push(200) */
+// [20, 30, 40, 50, 100, true]
+let newArr = arr.filter((element) => {
+    console.log(element)
+    if (element < 50){
+    return true;
+}
+})
 
-console.log(arr)
- */
-
-
-// stopped at 1:40:04
+console.log(newArr)
 
 
 
